@@ -15,6 +15,10 @@ The original file overwrites `1`, `1` overwrites `2`, `2` overwrites `3`, etc.
 
 Real-world usage would be to run this in cron.  
 
+## Usage
+
+Set the **Options** (see below for details), then simply run $ `./backup.sh`
+
 ## Options:
 
 - **FILES_TO_BACKUP** `="$(pwd)/testfile.txt $(pwd)/test2.txt"` # Full path to the file you want to back up, add more files separated by spaces
